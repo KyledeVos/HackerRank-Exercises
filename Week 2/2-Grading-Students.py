@@ -1,20 +1,5 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-#
-# Complete the 'gradingStudents' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY grades as parameter.
-#
 
 def gradingStudents(grades):
-    # Write your code here
 
     new_grades = []
 
@@ -27,8 +12,6 @@ def gradingStudents(grades):
 
     return new_grades
 
-    # for grade in grades:
-    #     print(grade%5)
 
 
 if __name__ == '__main__':
